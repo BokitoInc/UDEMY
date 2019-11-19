@@ -1,9 +1,9 @@
-var firtsLI = document.querySelector("li");
+var lis = document.querySelectorAll("li");
 
-firtsLI.addEventListener("mouseover", function() {
-    firtsLI.style.color = "grey";
+lis.addEventListener("mouseover", function() {
+    lis.style.color = "grey";
 });
 
-firtsLI.addEventListener("mouseout", function() {
-    firtsLI.style.color = "black";
+lis.addEventListener("mouseout", function() {
+    lis.style.color = "black";
 });
