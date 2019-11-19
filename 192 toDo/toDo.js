@@ -1,9 +1,16 @@
 var lis = document.querySelectorAll("li");
 
-lis.addEventListener("mouseover", function() {
-    lis.style.color = "grey";
-});
+for (var i; i < lis.length; i++;) {
+    lis[i].addEventListener("mouseover", function() {
+        this.style.color = "grey";
+    });
 
-lis.addEventListener("mouseout", function() {
-    lis.style.color = "black";
-});
+    lis[i].addEventListener("mouseout", function() {
+        this.style.color = "black";
+    });
+
+}
+
+// lis.addEventListener("mouseout", function() {
+//     lis.style.color = "black";
+// });
